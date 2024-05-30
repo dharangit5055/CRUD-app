@@ -12,8 +12,6 @@ import {
 function App() {
   return (
     <div>
-      {/* <User/> */}
-      {/* <CreateUser/> */}
       <BrowserRouter>
         <Routes>
           <Route path="/" Component={User} />
